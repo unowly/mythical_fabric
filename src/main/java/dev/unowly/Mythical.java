@@ -1,5 +1,10 @@
 package dev.unowly;
 
+import dev.unowly.item.ModItems;
+import dev.unowly.tab.MythicalBlocksTabGroup;
+import dev.unowly.tab.MythicalCombatTabGroup;
+import dev.unowly.tab.MythicalItemsTabGroup;
+import dev.unowly.tab.MythicalToolsTabGroup;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -12,5 +17,14 @@ public class Mythical implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		LOGGER.info("Mythical initializing...");
+
+	//ITEMS
+		ModItems.initialise();
+
+	//TAB
+		MythicalBlocksTabGroup.initialise();
+		MythicalItemsTabGroup.initialise();
+		MythicalToolsTabGroup.initialise();
+		MythicalCombatTabGroup.initialise();
 	}
 }
