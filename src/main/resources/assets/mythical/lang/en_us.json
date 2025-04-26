@@ -2,5 +2,7 @@
   "itemGroup.mythical_items_tab_group": "Mythical Items",
   "itemGroup.mythical_blocks_tab_group": "Mythical Blocks",
   "itemGroup.mythical_tools_tab_group": "Mythical Tools",
-  "itemGroup.mythical_combat_tab_group": "Mythical Combat"
+  "itemGroup.mythical_combat_tab_group": "Mythical Combat",
+
+  "item.mythical.star_fragment": "Star Fragment"
 }

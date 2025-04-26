@@ -12,7 +12,7 @@ import net.minecraft.util.Identifier;
 
 public class MythicalToolsTabGroup {
     public static final ItemGroup MYTHICAL_TOOLS = Registry.register(Registries.ITEM_GROUP, Identifier.of(
-            Mythical.MOD_ID, "mythical_items_tab_group"), FabricItemGroup.builder()
+            Mythical.MOD_ID, "mythical_tools_tab_group"), FabricItemGroup.builder()
             .icon(() -> new ItemStack(ModItems.STAR_FRAGMENT))
             .displayName(Text.translatable("itemGroup.mythical_tools_tab_group"))
             .entries((context, entries) ->{
